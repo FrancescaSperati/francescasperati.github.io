@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
   <title>W3.CSS Template</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +13,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css">
 
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Great+Vibes|Merriweather|Merriweather+Sans|Nunito|Nunito+Sans|Quattrocento|Quattrocento+Sans|Roboto|Roboto+Mono|Roboto+Slab&display=swap" rel="stylesheet">
   
   <script type="text/javascript" src="../scripts/scripts.js"></script>
-
+ 
+</head>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -137,16 +141,44 @@
   <div class="container">
     <div class="row padding w3-center justify-content-md-center">
 
-      <div  src="../images/avatar_hat.jpg" class="col my-work-cards" id="ready-teacher-card" onclick="onClick(this)">
+      <!-- <div  class="col my-work-cards" id="ready-teacher-card" onclick="onClick(this)" alt="prima" src="../images/avatar_hat.jpg">
+      </div> -->
+      <a class="col my-work-cards" id="ready-teacher-card" data-fancybox="gallery-verde" data-caption="prima" href="../images/avatar_hat.jpg" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+
+      <a class="col my-work-cards" id="wisp-card" data-fancybox="gallery-wisp" data-caption="prima" href="../images/avatar_hat.jpg" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-wisp" href=wisp2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-wisp" href=wisp2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-wisp" href=wisp2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+
+      <a class="col my-work-cards" id="verde-card" data-fancybox="gallery-verde" data-caption="prima" href="../images/avatar_hat.jpg" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+
+      <a class="col my-work-cards" id="choreasy-card" data-fancybox="gallery-verde" data-caption="prima" href="../images/avatar_hat.jpg" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      <a style="display:none" data-fancybox="gallery-verde" href=verde2.jpg data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+
+      <div class="col my-work-cards" onclick="onClick(this)" alt="seconda" src="../images/avatar_hat.jpg" >
       </div>
-      <div  src="../images/avatar_hat.jpg" class="col my-work-cards" id="wisp-card" onclick="onClick(this)">
+      <div class="col my-work-cards"  onclick="onClick(this)" alt="terza" src="../images/avatar_hat.jpg" >
       </div>
-      <div  src="../images/avatar_hat.jpg" class="col my-work-cards" id="verde-card" onclick="onClick(this)">
-      </div>
-      <div  src="../images/avatar_hat.jpg" class="col my-work-cards" id="choreasy-card" onclick="onClick(this)">
+      <div class="col my-work-cards"  onclick="onClick(this)" alt="quatra" src="../images/avatar_hat.jpg" >
       </div>
     </div> 
   </div>
+  <!-- Modal for full size images on click-->
+  <!-- <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div> -->
 
 
   <div class="row w3-center w3-section">
@@ -161,14 +193,7 @@
   </div>
 </div>
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
+
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
@@ -219,6 +244,9 @@
     <!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
   </div>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 
 </body>

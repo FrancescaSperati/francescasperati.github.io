@@ -155,6 +155,11 @@ body, html {
     line-height: 60px;
 }
 
+.fancybox-image, .fancybox-spaceball{
+  height: 95% !important;
+}
+
+
 @media screen and (max-width: 428px) {
   .fs-logo {
     font-size: 30px;
@@ -162,10 +167,6 @@ body, html {
     margin-right: 2px;
   } 
 } 
-
-
-
-
 @media screen and (min-width:429px) and (max-width:599px) {
   .fs-logo {
       font-size: 35px;
@@ -178,7 +179,3 @@ body, html {
 }
 
 
-
-
-​
-{}

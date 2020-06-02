@@ -115,11 +115,17 @@ body, html {
   background-size: cover;
 } */
 .my-work-cards{
-  min-height: 250px;
+  /* min-height: 250px;
   background-size: cover;
   margin: 5px;
   min-width: 307px;
-  max-width: 100%;
+  max-width: 100%; */
+    min-height: 250px;
+    background-repeat: no-repeat;
+    margin: 5px;
+    background-position: center;
+    min-width: 307px;
+    max-width: 100%;
 }
 #ready-teacher-card{
   background-image: url('../images/rt_logo.png');

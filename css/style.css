@@ -108,12 +108,6 @@ body, html {
 
 
 /* my work cards */
-/* .my-work-cards{
-  width: 100%;
-  height: 120px;
-  overflow: hidden;
-  background-size: cover;
-} */
 .my-work-cards{
   /* min-height: 250px;
   background-size: cover;
@@ -126,19 +120,25 @@ body, html {
     background-position: center;
     min-width: 307px;
     max-width: 100%;
+    background-size: contain;
 }
 #ready-teacher-card{
   background-image: url('../images/rt_logo.png');
 }
 #wisp-card{
-  background-image: url('../images/wisp.jpg');  
+  background-image: url('../images/wisp_logo.png');  
 }
 #verde-card{
-  background-image: url('../images/verde.jpg');  
+  background-image: url('../images/verde_logo.jpg');  
 }
-#choreasy-card{
-  background-image: url('../images/ChorEasy.jpg');  
+#parkie-card{
+  background-image: url('../images/parkie_logo.png');  
 }
+
+.fancybox-image, .fancybox-spaceball{
+  height: 95% !important;
+}
+
 /* end my work cards */
 
 
@@ -154,11 +154,6 @@ body, html {
     margin-right: 40px;
     line-height: 60px;
 }
-
-.fancybox-image, .fancybox-spaceball{
-  height: 95% !important;
-}
-
 
 @media screen and (max-width: 428px) {
   .fs-logo {

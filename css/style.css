@@ -139,6 +139,14 @@ body, html {
   height: 95% !important;
 }
 
+.links-work{
+  float: right;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+.links-work a:hover{
+  font-size: larger;
+}
 /* end my work cards */
 
 

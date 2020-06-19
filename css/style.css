@@ -168,15 +168,24 @@ body, html {
     margin-top: 18px;
     margin-right: 2px;
   } 
+  .f-25{
+    font-size: 25px !important;
+  }
 } 
 @media screen and (min-width:429px) and (max-width:599px) {
   .fs-logo {
       font-size: 35px;
   }
+  .f-25{
+    font-size: 25px !important;
+  }
 }
 @media screen and (min-width:600px) and (max-width:775px){
   .fs-logo{
       font-size: 40px;
+  }
+  .f-25{
+    font-size: 25px !important;
   }
 }
 

@@ -13,6 +13,9 @@ body, html {
   color: #777;
   line-height: 1.8;
 }
+.f-25{
+  font-size: 25px !important;
+}
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
@@ -109,11 +112,6 @@ body, html {
 
 /* my work cards */
 .my-work-cards{
-  /* min-height: 250px;
-  background-size: cover;
-  margin: 5px;
-  min-width: 307px;
-  max-width: 100%; */
     min-height: 250px;
     background-repeat: no-repeat;
     margin: 5px;
@@ -155,7 +153,8 @@ body, html {
     font-family: 'Great Vibes', cursive;
     background: -webkit-linear-gradient(#ffc107,#e91e63);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;    
+    color: #e91e63;
     font-size: 50px;
     padding: 10px;
     margin: 20px;

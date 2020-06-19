@@ -13,9 +13,6 @@ body, html {
   color: #777;
   line-height: 1.8;
 }
-.f-25{
-  font-size: 25px !important;
-}
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
@@ -147,6 +144,16 @@ body, html {
 }
 /* end my work cards */
 
+/* download resume */
+.fs-download{
+  font-family: 'Great Vibes', cursive;
+  background: -webkit-linear-gradient(#ffc107,#e91e63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
+  font-size: 20px;
+  margin: auto;
+  line-height: 30px;
+}
 
 /* logo */
 .fs-logo{
@@ -168,24 +175,15 @@ body, html {
     margin-top: 18px;
     margin-right: 2px;
   } 
-  .f-25{
-    font-size: 25px !important;
-  }
 } 
 @media screen and (min-width:429px) and (max-width:599px) {
   .fs-logo {
       font-size: 35px;
   }
-  .f-25{
-    font-size: 25px !important;
-  }
 }
 @media screen and (min-width:600px) and (max-width:775px){
   .fs-logo{
       font-size: 40px;
-  }
-  .f-25{
-    font-size: 25px !important;
   }
 }
 

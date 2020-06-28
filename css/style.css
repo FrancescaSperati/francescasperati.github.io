@@ -85,6 +85,7 @@ body, html {
   height: 100%;
   transition: all 2s;
   width: 100%;
+  text-transform: none;
 }
 .fs-button:hover .fs-button-secondary{
   background: transparent;

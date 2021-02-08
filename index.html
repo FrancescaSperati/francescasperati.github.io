@@ -22,10 +22,10 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#home" class="w3-bar-item w3-button w3-hide-small">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="mdi mdi-account-circle"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
@@ -42,8 +42,9 @@
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="float-right" style="white-space:nowrap;">
+  <div class="float-right d-flex text-nowrap">
     <div class="fs-logo">Francesca Sperati</div>
+    <div class="avatar my-auto"></div>
   </div>
 </div>
 
@@ -51,10 +52,17 @@
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h1 class="w3-center">ABOUT ME</h1>
   <p class="w3-center"><em>I love Software Design</em></p>
-  <p>A dynamic IT professional with excellent organizational skills and a good eye for details. </br>
-    I am an energetic Software Engineer with extended experience designing and developing applications and websites.</br>
+  <p>A dynamic Software Developer professional with excellent organizational skills and a good eye for details. </br>
+    I am an energetic Software Engineer with extended experience designing and developing fully responsive applications and websites.</br>
     Indefatigable student, I graduated in Engineering Management (2013) in Rome, Italy, and in Software Engineering (2019) in Melbourne, Australia, 
-    to keep on my passion in Web Development and Software Design</br>
+    to keep on my passion in Web Development and Software Design. </br></br>
+    
+    I am an experienced UX / UI Designer and a Senior Frontend Developer, with several years of experience, working for:</br>
+    - nonprofit associations "NOMIT"</br>
+    - Italian Government Entities "The Consulate General of Italy in Melbourne"</br>
+    - Confederation of Workers Trade Unions WiTCare = "INAS" + "CISL"</br>
+    - and local startups "ReadyTeacher" and "Öomami"</br>
+   </br>
     A quick learner, I can absorb new ideas and languages and adjust to a new challenging working environment.</p>
   
   <div class="row">
@@ -65,23 +73,23 @@
     <!-- Hide this text on small devices -->
     <div class="col m-auto m6 w3-hide-small w3-padding-large">
         <div class="fs-logo d-flex m-0 p-0" >Francesca</div>
-        <p>Hi! Thank you for visiting my website.
-          As you can see, I have always been a restless student, and the Information Technology is in my life since the High School.
+        <p>I have always been a restless student, and the Information Technology is in my life since High School.
           I have worked in Italy as Database Administrator, and System Analyst, at Telecom Italia, and
-          as Java Developer at Spity Group. Then, I moved to Australia, learned a new Language, and many others! :) and I have focused my carreer on the 
-          Software Design, UX / UI and Development, working on few projects and affirming myself in the field.
+          as Java Developer at Spity Group.</br> 
+          Then, I moved to Australia, learned a new Language, and many others! :) and I have focused my carreer on the 
+          Software Design, UX / UI and Development, working on several projects, such as ReadyTeacher, WiTCare, and Öomami, and affirming myself in the field.
         </p>
     </div>
   </div>
 
   <p class="w3-large w3-center w3-padding-16">I am really good at:</p>
+  <p class="w3-wide mb-0 mt-3"><i class="mdi mdi-brush"></i>Web &amp; Frontend Development</p>
+  <div class="w3-light-grey fs-opacity-70">
+    <div class="w3-container w3-padding-small fs-gradient w3-center" style="width:100%">100%</div>
+  </div>
   <p class="w3-wide mb-0"><i class="mdi mdi-responsive"></i>UX/UI Design</p>
   <div class="w3-light-grey fs-opacity-70">
     <div class="w3-container w3-padding-small fs-gradient w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide mb-0 mt-3"><i class="mdi mdi-brush"></i>Web &amp; Frontend Development</p>
-  <div class="w3-light-grey fs-opacity-70">
-    <div class="w3-container w3-padding-small fs-gradient w3-center" style="width:85%">85%</div>
   </div>
   <p class="w3-wide mb-0 mt-3"><i class="mdi mdi-laptop-chromebook"></i>Backend &amp; Services Development</p>
   <div class="w3-light-grey fs-opacity-70">
@@ -89,20 +97,24 @@
   </div>
 </div>
 
-<div class="w3-row w3-center fs-gradient w3-padding-16">
-  <div class="w3-quarter w3-section">
+<div class="row w3-center fs-gradient w3-padding-16">
+  <div class="col-12 col-lg-3 w3-section skill-div">
+    <img class="skill-icon" src="images/frontend.png">
     <span class="w3-xlarge">Web &amp; Fontend</span><br>
     HTML / CSS / Javascript / React
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="col-12 col-lg-3 w3-section skill-div">
+    <img class="skill-icon" src="images/backend.png">
     <span class="w3-xlarge">Backend &amp; Service</span><br>
     NodeJS / PHP / ASP.Net / C# / Java
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="col-12 col-lg-3 w3-section skill-div">
+    <img class="skill-icon" src="images/database.png">
     <span class="w3-xlarge">Data</span><br>
     MySQL / SQL / Access / Json
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="col-12 col-lg-3 w3-section skill-div">
+    <img class="skill-icon" src="images/mobile.png">
     <span class="w3-xlarge">Mobile</span><br>
     Android / iOS / Flutter
   </div>
@@ -124,6 +136,26 @@
   <div class="container">
     <div class="row padding w3-center justify-content-md-center">
 
+      <!-- öomami -->
+      <div class="col my-work-cards w3-opacity w3-hover-opacity-off">
+        <a class="row my-work-cards  mb-0" id="oomami-card" data-fancybox="gallery-oomami" data-caption="The world's first social marketplace designed for small farmers, producers, chefs, and foodies. They provide automation services for small producers on a SAAS basis and also handle warehousing and deliveries for most products listed on the platform." href="images/oomami/oo-video1.mp4" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+        <a class="row m-1 links-work">
+          <span> <a href="https://www.oomami.me/" target="_blank" class="links-work"> <i class="fa fa-globe"></i></a></span>
+        </a>
+        <a style="display:none" data-fancybox="gallery-oomami" data-caption="Fully responsive, öomami runs on any device width without loosing on image quality nor information." href="images/oomami/oo-video2.mp4" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+        <a style="display:none" data-fancybox="gallery-oomami" data-caption="Explore the website yourself clicking on the link under the logo, or enter the dev-website to find the newst updates (https://www.oomami.me:5555/)." href="images/oomami/oo-video3.mp4" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+        <a style="display:none" data-fancybox="gallery-oomami" data-caption="A brand new look! <br> - Highier quality images with svg icons <br> - Dynamic badges on the icons <br> - Better organised menus <br> - Clearer display of information across the whole app." href="images/oomami/oo-3.jpg" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      </div>
+      <!-- WiTCare -->
+      <div class="col my-work-cards w3-opacity w3-hover-opacity-off">
+        <a class="row my-work-cards  mb-0" id="witcare-card" data-fancybox="gallery-witcare" data-caption="WiTCare is a project organised in association with two major italian unions based in Melbourne, Co.As.It. and Patronato INAS-Cisl. The aim of this project is to assist those who have difficulty and are unable to attend a Patronato office and who need help not only with welfare issues, but also with help in matters that arise with Italian and local authorities. They offer a wide range of home-based services, such as welfare matters, pensions, and social security issues." href="images/witcare/wt-1.png" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+        <a class="row m-1 links-work">
+          <span> <a href="https://www.witcare.com.au/" target="_blank" class="links-work"> <i class="fa fa-globe"></i></a></span>
+        </a>
+        <a style="display:none" data-fancybox="gallery-witcare" data-caption="WiTCare is a fully responsive website which runs best on any device, without loosing in " href="images/witcare/wc-2.png" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+        <a style="display:none" data-fancybox="gallery-witcare" data-caption="Academies' profile will display staff and schools' information" href="images/witcare/wc-3.png" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+        <a style="display:none" data-fancybox="gallery-witcare" data-caption="Teachers' profile, will show his resume and availability" href="images/witcare/wc-4.png" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>
+      </div>
        <!-- ready teacher -->
       <div class="col my-work-cards w3-opacity w3-hover-opacity-off">
         <a class="row my-work-cards  mb-0" id="ready-teacher-card" data-fancybox="gallery-readyteacher" data-caption="Ready Teacher is the perfect solution for both Institutions and Teachers. It centralises a pool of quality international education specialists in one HR platform" href="images/ready-teacher/rt-1.jpg" data-options='{"buttons": ["close" ], "clickSlide": "null", "clickOutside": "null"}'></a>

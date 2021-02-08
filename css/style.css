@@ -109,14 +109,27 @@ body, html {
 
 
 /* my work cards */
+div.my-work-cards{
+  border: solid 1px #c5c5c5;
+}
 .my-work-cards{
     min-height: 250px;
     background-repeat: no-repeat;
-    margin: 5px;
+    margin: 2px 5px;
     background-position: center;
     min-width: 307px;
     max-width: 100%;
     background-size: contain;
+}
+#oomami-card{
+  background-image: url('../images/oomami_logo.png');
+  max-width: 300px;
+  margin: auto;
+}
+#witcare-card{
+  background-image: url('../images/WiTCare_logo.png');
+  max-width: 300px;
+  margin: auto;
 }
 #ready-teacher-card{
   background-image: url('../images/rt_logo.png');
@@ -154,8 +167,19 @@ body, html {
   font-size: 18px;
   line-height: 60px;
 }
+/* end download resume */
+
 
 /* logo */
+.avatar{
+  background-image: url(../images/avatar-fra.png);
+  width: 50px;
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
 .fs-logo{
   font-family: 'Great Vibes', cursive;
   background: -webkit-linear-gradient(#ffc107,#e91e63);
@@ -165,7 +189,6 @@ body, html {
   font-size: 50px;
   padding: 10px;
   margin: 20px;
-  margin-right: 40px;
   line-height: 60px;
 }
 
@@ -198,5 +221,19 @@ body, html {
     line-height: 23px;
   }
 }
+/* end logo */
 
 
+/* skills */
+.skill-div {
+  color: #5d5b5b;
+}
+.skill-div span {
+  color: #fff;
+}
+img.skill-icon{
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+/* end skills */

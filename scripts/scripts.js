@@ -12,10 +12,26 @@ function myFunction() {
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
     var x = document.getElementById("navDemo");
+    var y = document.getElementById("myNavbar");
+    
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
+        y.className += " w3-white";
     } else {
         x.className = x.className.replace(" w3-show", "");
+        y.className = y.className.replace(" w3-white", "");
     }
 }
 
+
+// function videoFancyBox()  {                     
+//     $(".fancybox").attr('rel', 'gallery').fancybox({
+//         openEffect  : 'none',
+//         autoplay    : 0,
+//         closeEffect : 'none',
+//         nextEffect  : 'none',
+//         prevEffect  : 'none',
+//         padding     : 0,
+//         margin      : [20, 60, 20, 60] // Increase left/right margin
+//     });
+// }
